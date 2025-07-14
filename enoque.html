@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Enoque Sales</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Hello, I am Enoque</h2>
+      <p>Desenvolvedor Front-end | UI/UX</p>
+      <a href="#projects" class="btn">See my projects</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a front-end Developer focused on building clean, responsive, and modern interfaces that deliver great user experience.</p>
+
+    <img src="IMG_0550.jpg">
+
+  </section>
+
+  <section id="projects">
+    <h2>Projetcs</h2>
+    <div class="projects-grid">
+      <div class="projects">
+        <h3>Projects</h3>
+        <p>My Projects.</p>
+        <a href="https://github.com/Enoque777/site-enoque-html.git" target="_blank">Ver no GitHub</a>
+      </div>
+      <!-- Adicione mais projetos -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="https://formsubmit.co/enoquesales52@gmail.com" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <input type="hidden" name="_captcha" value="false">
+      <button type="submit">Send</button>
+    </form id="contact-form" action="https://formsubmit.co/enoquesales52@gmail.com" method="post">
+
+    <p id="form-success" style="display: none; color: green; margin-top: 10px;">
+      Message sent successfully!
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 EnoqueSalesSilva. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="enoque.js"></script>
+</body>
+</html>
